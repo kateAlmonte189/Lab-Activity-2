@@ -13,7 +13,7 @@ public class RecursiveFileSearch {
             if (node.name.endsWith(extension)) {
                 String result = "File found: " + node.name + "\n";
                 writer.write(result);
-                System.out.print("✓ " + result);
+                System.out.print("✓ " + result); //comment
                 fileFound = true;
             }
         } else {
